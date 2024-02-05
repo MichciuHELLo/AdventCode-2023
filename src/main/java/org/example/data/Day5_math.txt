@@ -1,0 +1,101 @@
+seeds: 79 14 55 13
+
+if (seed >= Math.min(soil1, soil2) && seed <= Math.min(soil1, soil2)+soil3-1) -> Math.max(soil1, soil2)-Math.min(soil1, soil2)=x | seed+x=wynik
+else -> seed=wynik
+
+seed-to-soil map:
+--- 50 98 2 ---
+
+if (79 >= 50 && 79 <= 50+2-1) -> false
+else -> 79=wynik
+
+if (14 >= 50 && 14 <= 50+2-1) -> false
+else -> 14=wynik
+
+if (55 >= 50 && 55 <= 50+2-1) -> false
+else -> 55=wynik
+
+if (13 >= 50 && 13 <= 50+2-1) -> false
+else -> 13=wynik
+
+seed-to-soil map:
+--- 52 50 48 ---
+
+if (79 >= 50 && 79 <= 50+48-1) -> 52-50=2 79+2=81=wynik
+else -> 
+
+if (14 >= 50 && 14 <= 50+48-1) -> false
+else -> 14=wynik
+
+if (55 >= 50 && 55 <= 50+48-1) -> 52-50=x | 55+2=57=wynik
+else -> seed=wynik
+
+if (13 >= 50 && 13 <= 50+48-1) -> false
+else -> 13=wynik
+
+
+soil-to-fertilizer map:
+--- 0 15 37 ---
+
+if (81 >= 0 && 81 <= 0+37-1) -> false
+else -> 81=wynik
+
+
+
+
+
+
+37 52 2
+39 0 15
+
+
+
+water-to-light map:
+--- 88 18 7 ---
+
+if (81 >= 18 && 81 <= 18+7-1) -> Math.max(soil1, soil2)-Math.min(soil1, soil2)=x | seed+x=wynik
+else -> 81=wynik
+
+--- 18 25 70 ---
+
+if (81 >= 18 && 81 <= 18+70-1) -> 25-18=x=7 | 81+7=88=wynik
+else -> seed=wynik
+
+
+
+
+if (seed >= x2 && seed <= x2+x3-1) -> seed += x1-x2
+if (81 >= 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2147483647
+2977255263
