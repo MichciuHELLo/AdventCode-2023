@@ -1,4 +1,4 @@
-package org.example.answer;
+package org.example.y2023.answer;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,16 +8,16 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Day10 {
-    final String examplePathPart1_0 = "src/main/java/org/example/data/Day10_part1.0_example.txt";
-    final String examplePathPart1_1 = "src/main/java/org/example/data/Day10_part1.1_example.txt";
-    final String examplePathPart1_2 = "src/main/java/org/example/data/Day10_part1.2_example.txt";
-    final String examplePathPart1_3 = "src/main/java/org/example/data/Day10_part1.3_example.txt";
-    final String inputPath = "src/main/java/org/example/data/Day10_input.txt";
-    final String inputPath_subGrid = "src/main/java/org/example/data/Day10_input_subGrid.txt";
-    final String examplePathPart2_0 = "src/main/java/org/example/data/Day10_part2.0_example.txt";
-    final String examplePathPart2_1 = "src/main/java/org/example/data/Day10_part2.1_example.txt";
-    final String examplePathPart2_2 = "src/main/java/org/example/data/Day10_part2.2_example.txt";
-    final String examplePathPart2_3 = "src/main/java/org/example/data/Day10_part2.3_example.txt";
+    final String examplePathPart1_0 = "src/main/java/org/example/y2023/data/Day10_part1.0_example.txt";
+    final String examplePathPart1_1 = "src/main/java/org/example/y2023/data/Day10_part1.1_example.txt";
+    final String examplePathPart1_2 = "src/main/java/org/example/y2023/data/Day10_part1.2_example.txt";
+    final String examplePathPart1_3 = "src/main/java/org/example/y2023/data/Day10_part1.3_example.txt";
+    final String inputPath = "src/main/java/org/example/y2024/y2023/data/Day10_input.txt";
+    final String inputPath_subGrid = "src/main/java/org/example/y2023/data/Day10_input_subGrid.txt";
+    final String examplePathPart2_0 = "src/main/java/org/example/y2023/data/Day10_part2.0_example.txt";
+    final String examplePathPart2_1 = "src/main/java/org/example/y2023/data/Day10_part2.1_example.txt";
+    final String examplePathPart2_2 = "src/main/java/org/example/y2023/data/Day10_part2.2_example.txt";
+    final String examplePathPart2_3 = "src/main/java/org/example/y2023/data/Day10_part2.3_example.txt";
 
     public void part1() throws FileNotFoundException {
         System.out.println("---------------");
