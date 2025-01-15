@@ -1,4 +1,4 @@
-package org.example.answer;
+package org.example.y2023.answer;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,9 +9,9 @@ import java.util.stream.Collectors;
 
 public class Day3 {
 
-    final String examplePathPart1 = "src/main/java/org/example/data/Day3_part1_example.txt";
-    final String examplePathPart2 = "src/main/java/org/example/data/Day3_part2_example.txt";
-    final String inputPath = "src/main/java/org/example/data/Day3_input.txt";
+    final String examplePathPart1 = "src/main/java/org/example/y2023/data/Day3_part1_example.txt";
+    final String examplePathPart2 = "src/main/java/org/example/y2023/data/Day3_part2_example.txt";
+    final String inputPath = "src/main/java/org/example/y2023/data/Day3_input.txt";
 
     public void part1 () throws FileNotFoundException {
         System.out.println("---------------");

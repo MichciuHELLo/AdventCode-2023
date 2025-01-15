@@ -1,4 +1,4 @@
-package org.example.answer;
+package org.example.y2023.answer;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,8 +6,8 @@ import java.util.*;
 
 public class Day7 {
 
-    final String examplePathPart1 = "src/main/java/org/example/data/Day7_part1_example.txt";
-    final String inputPath = "src/main/java/org/example/data/Day7_input.txt";
+    final String examplePathPart1 = "src/main/java/org/example/y2023/data/Day7_part1_example.txt";
+    final String inputPath = "src/main/java/org/example/y2023/data/Day7_input.txt";
 
     /*
 
